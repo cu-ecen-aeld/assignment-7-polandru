@@ -1,6 +1,6 @@
 #!/bin/sh
 # $Id: scull_load,v 1.4 2004/11/03 06:19:49 rubini Exp $
-module="scull"
+module="/lib/modules/`uname -r`/extra/scull.ko"
 device="scull"
 mode="664"
 

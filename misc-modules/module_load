@@ -1,5 +1,5 @@
 #!/bin/sh
-module=$1
+module=/lib/modules/`uname -r`/faulty.ko
 # Use the same name for the device as the name used for the module
 device=$1
 # Support read/write for owner and group, read only for everyone using 644

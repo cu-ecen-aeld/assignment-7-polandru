@@ -1,6 +1,6 @@
 #!/bin/sh
-module=$1
-device=$1
+module=faulty
+device=faulty
 
 if [ $# -ne 1 ]; then
 	echo "Wrong number of arguments"

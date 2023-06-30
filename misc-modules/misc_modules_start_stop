@@ -2,10 +2,10 @@
 
 if [ "$1" == "start" ]
 then
-    module_load faulty.ko
+    module_load
 fi
 
 if [ "$1" == "stop" ]
 then 
-    module_unload faulty.ko
+    module_unload
 fi
