@@ -2,10 +2,12 @@
 
 if [ "$1" == "start" ]
 then
-    module_load
+    module_load faulty
+    module_load hello
 fi
 
 if [ "$1" == "stop" ]
 then 
-    module_unload
+    module_unload faulty
+    module_unload hello
 fi
