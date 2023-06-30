@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ "$1" == "start" ]
+then
+    scull_load scull.ko
+fi
+
+if [ "$1" == "stop" ]
+then 
+    scull_unload scull.ko
+fi
